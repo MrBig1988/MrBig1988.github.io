@@ -1,0 +1,89 @@
+
+header {
+  background-image: url("../img/texture.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 1000px;
+  
+}
+
+.tittle {
+  color: #2b2b2b;
+  font-size: 5rem;
+}
+
+.tittle-div {
+  margin: auto;
+  padding: 400px 0;
+}
+
+.skills {
+  background-image: url("../img/texture.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  padding: 200px 0;
+}
+
+.skill-icon {
+  padding: 5%;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.project-div-1 {
+  background-image: url('../img/battleship2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.project-div-2 {
+  background-image: url('../img/simon2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.project-div-3 {
+  background-image: url('../img/Newsletter2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.project-div-4 {
+  background-image: url('../img/drums.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.project-text {
+  color: black;
+}
+
+
+footer {
+  background-image: url("../img/texture.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: 250px 0;
+}
+
+.contact-icon {
+  padding: 5%;
+}
+
+.zoom {
+  
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
